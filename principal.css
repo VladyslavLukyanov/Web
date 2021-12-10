@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body{
+    background-image: url(image/back-principal.jpg);
+    background-size:cover;
+}
+ 
+
+
+
+/*----------------------CLASSES---------------*/
+.titre h1{
+    text-align:center;
+    font-family:Amatic SC;
+    font-size : 65px;
+    color:whitesmoke;
+    
+}
+
+.morts{
+    display: inline;
+    position: relative;
+    left:430px;
+    top:340px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border: 1px outset white;
+    border:inset;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size:25px ;
+}
+
+
+.president
+{
+    display: inline;
+    position: relative;
+    left:620px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border: 1px outset rgb(255, 255, 255);
+    border:inset;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:25px;
+}
+
+.first{
+    position: relative;
+    text-align: center;
+    top:5px;    
+}
+
+.second{
+    position: relative;
+    top: 45px;
+    left: 550px
+}
+
+
+.wiki a{
+    font-size:25px;
+}
+
+.copy{
+    display: flex;
+    color:white;
+    text-transform: uppercase;
+}
+ 
+
+/*Survol de souris*/
+.morts:hover{
+    background-color: white;
+    color:black;
+    
+}
+
+.morts:active{
+    color:white;
+}
+
+.president:hover{
+    background-color: white;
+    color:black;
+}
+.president:active
+{
+    color:white;
+}
+
+.avantages-defauts:hover{
+    background-color: white;
+    color:black;
+}
+
+.avantages-defauts:active{
+    color:white;
+}
+
+/*Taille Ecran*/
+
+@media screen and (max-width: 800px){ 
+    .first{
+        display: none;
+    }
+    .second{
+        display: none;
+    }
+
+}
+ 
+
+ 
